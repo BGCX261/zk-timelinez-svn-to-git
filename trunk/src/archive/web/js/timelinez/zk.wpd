@@ -1,0 +1,37 @@
+<package name="timelinez" language="xul/html" depends="zul">
+	<script src="ext/simile-ajax/simile-ajax-api.js"/>	
+	<script src="ext/simile-ajax/scripts/platform.js"/>
+	<script src="ext/simile-ajax/scripts/debug.js"/>
+	<script src="ext/simile-ajax/scripts/xmlhttp.js"/>
+	<script src="ext/simile-ajax/scripts/json.js"/>
+	<script src="ext/simile-ajax/scripts/dom.js"/>
+	<script src="ext/simile-ajax/scripts/graphics.js"/>
+	<script src="ext/simile-ajax/scripts/date-time.js"/>
+	<script src="ext/simile-ajax/scripts/string.js"/>
+	<script src="ext/simile-ajax/scripts/html.js"/>
+	<script src="ext/simile-ajax/scripts/data-structure.js"/>
+	<script src="ext/simile-ajax/scripts/units.js"/>            
+	<script src="ext/simile-ajax/scripts/ajax.js"/>
+	<script src="ext/simile-ajax/scripts/history.js"/>
+	<script src="ext/simile-ajax/scripts/window-manager.js"/>
+	
+	<script src="ext/timeline/timeline-api.js"/>
+	<script src="ext/timeline/scripts/timeline.js"/>
+	<script src="ext/timeline/scripts/band.js"/>
+	<script src="ext/timeline/scripts/themes.js"/>
+	<script src="ext/timeline/scripts/ethers.js"/>
+	<script src="ext/timeline/scripts/ether-painters.js"/>
+	<script src="ext/timeline/scripts/event-utils.js"/>
+	<script src="ext/timeline/scripts/labellers.js"/>
+	<script src="ext/timeline/scripts/sources.js"/>
+	<script src="ext/timeline/scripts/original-painter.js"/>
+	<script src="ext/timeline/scripts/detailed-painter.js"/>
+	<script src="ext/timeline/scripts/overview-painter.js"/>
+	<script src="ext/timeline/scripts/compact-painter.js"/>
+	<script src="ext/timeline/scripts/decorators.js"/>
+	<script src="ext/timeline/scripts/units.js"/>
+	
+	<widget name="Timeline"/>
+	<widget name="Bandinfo"/>
+	<widget name="Hotzone"/>
+</package>

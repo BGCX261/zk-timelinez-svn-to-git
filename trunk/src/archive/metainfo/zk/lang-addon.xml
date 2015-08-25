@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- lang-addon.xml
+	Purpose:
+		
+	Description:
+		
+	History:
+		Fri Oct  23 16:00:44 TST 2009, Created by jimmyshiau
+
+Copyright (C) 2009 Potix Corporation. All Rights Reserved.
+-->
+<language-addon>
+	<!-- The name of this addon. It must be unique -->
+	<addon-name>timeline</addon-name>
+	<!-- Specifies what other addon this depends
+	<depends></depends>
+	-->
+	
+	<version>
+		<version-class>org.zkforge.timeline.Version</version-class>
+		<version-uid>2.3.1.51-FL</version-uid>
+		<zk-version>5.0.0</zk-version><!-- or later -->
+	</version>
+	
+	<!-- Which language this addon will be added to -->
+	<language-name>xul/html</language-name>
+	
+	<!-- [Optional, Multiple] Defines the version of a JavaScript module,
+		such that, if the version is changed, the browser will reload them.
+		The name is either a package's name or a portion of it.
+	-->
+	<javascript-module name="timelinez" version="2.3.1.51-FL"/>
+	
+	<component>
+		<component-name>timeline</component-name>
+		<component-class>org.zkforge.timeline.Timeline</component-class>
+		<widget-class>timelinez.Timeline</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/timeline.js</mold-uri>
+			<css-uri>css/timeline.css.dsp</css-uri>
+		</mold>
+	</component>
+	<component>
+		<component-name>bandinfo</component-name>
+		<component-class>org.zkforge.timeline.Bandinfo</component-class>
+		<widget-class>timelinez.Bandinfo</widget-class>
+	</component>
+	<component>
+		<component-name>hotzone</component-name>
+		<component-class>org.zkforge.timeline.Hotzone</component-class>
+		<widget-class>timelinez.Hotzone</widget-class>
+	</component>
+	
+</language-addon>
